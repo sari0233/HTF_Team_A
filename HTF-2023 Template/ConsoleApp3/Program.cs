@@ -7,7 +7,7 @@ ChallengeA3 challengeA3 = new ChallengeA3();
 
 //Console.WriteLine(response.StatusCode);
 
-var animals = await challengeA3.GetAnimals();
+await challengeA3.GetAnimals();
 
 var response = await challengeA3.BuildChain();
 Console.WriteLine(response.StatusCode);
